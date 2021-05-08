@@ -23,7 +23,7 @@ menu_2 = ReplyKeyboardMarkup(
             KeyboardButton(text='🕘 Режим работы')
         ],
         [
-            KeyboardButton(text='❗️ Сделать заказ'),
+            KeyboardButton(text='💬 Онлайн чат'),
             KeyboardButton(text='🖥 Сайт'),
             KeyboardButton(text='🧾 Категории')
         ],
