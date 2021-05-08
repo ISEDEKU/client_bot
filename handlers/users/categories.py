@@ -3,7 +3,7 @@ from aiogram import types
 from loader import dp
 
 
-@dp.message_handler(text='Категории')
+@dp.message_handler(text='🧾 Категории')
 async def categories(message: types.Message):
     await message.answer(
         'Туристичні навігатори:\nhttps://aparat.ua/turisticheskie-navigatori/'

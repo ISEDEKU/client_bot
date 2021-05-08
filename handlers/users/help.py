@@ -4,7 +4,7 @@ from keyboards.default.main_keyboard import menu_1
 from loader import dp
 
 
-@dp.message_handler(text='Помощь')
+@dp.message_handler(text='❓ Помощь')
 async def start_search(message: types.Message):
     await message.answer('''
 Я бот, который помогает найти информацию о товаре!\n
