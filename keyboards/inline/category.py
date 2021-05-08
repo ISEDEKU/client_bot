@@ -1,6 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-menu_4 = InlineKeyboardMarkup(row_width=2)
+menu_4 = InlineKeyboardMarkup(row_width=1)
 
 BUTTON_1 = 'https://aparat.ua/turisticheskie-navigatori/'
 button_1 = InlineKeyboardButton(text='Туристичні навігатори', url=BUTTON_1)
