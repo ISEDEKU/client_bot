@@ -14,5 +14,5 @@ table = soup.find('table', {'class': 'currency-data'})
 td = table.findAll('td')
 td = td[5]
 td = td.text
-td = td[1:8]  # покупка USD
+td = td[1:8]
 buying_USD = f'USD по курсу {td} UAH'
