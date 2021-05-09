@@ -4,6 +4,8 @@ menu_1 = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text='🔍 Поиск'),
+            KeyboardButton(text='💬 Онлайн чат'),
+            KeyboardButton(text='🧾 Категории')
 
         ],
         [
@@ -20,17 +22,16 @@ menu_2 = ReplyKeyboardMarkup(
         [
             KeyboardButton(text='✉️ Контакты'),
             KeyboardButton(text='🖥 Сайт'),
-            KeyboardButton(text='📎 О нас'),
-            KeyboardButton(text='🔬 Отзывы')
+            KeyboardButton(text='📱 Соцсети')
         ],
         [
-            KeyboardButton(text='💬 Онлайн чат'),
             KeyboardButton(text='🏬 Местоположение'),
-            KeyboardButton(text='🧾 Категории')
+            KeyboardButton(text='🔬 Отзывы'),
+            KeyboardButton(text='🕘 Режим работы')
         ],
         [
-            KeyboardButton(text='📱 Соцсети'),
-            KeyboardButton(text='🕘 Режим работы'),
+            KeyboardButton(text='📜 Промо коды'),
+            KeyboardButton(text='📎 О нас'),
             KeyboardButton(text='🔙 Назад')
         ],
     ],
