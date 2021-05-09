@@ -10,6 +10,7 @@ from . import help
 from . import information
 from . import about_us
 from . import contacts
+from . import reviews
 from . import location
 from . import operating_mode
 from . import online_chat

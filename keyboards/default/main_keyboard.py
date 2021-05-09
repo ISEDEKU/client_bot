@@ -19,17 +19,18 @@ menu_2 = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text='✉️ Контакты'),
-            KeyboardButton(text='🏬 Местоположение'),
-            KeyboardButton(text='🕘 Режим работы')
+            KeyboardButton(text='🖥 Сайт'),
+            KeyboardButton(text='📎 О нас'),
+            KeyboardButton(text='🔬 Отзывы')
         ],
         [
             KeyboardButton(text='💬 Онлайн чат'),
-            KeyboardButton(text='🖥 Сайт'),
+            KeyboardButton(text='🏬 Местоположение'),
             KeyboardButton(text='🧾 Категории')
         ],
         [
             KeyboardButton(text='📱 Соцсети'),
-            KeyboardButton(text='📎 О нас'),
+            KeyboardButton(text='🕘 Режим работы'),
             KeyboardButton(text='🔙 Назад')
         ],
     ],
