@@ -22,11 +22,12 @@ menu_2 = ReplyKeyboardMarkup(
         [
             KeyboardButton(text='✉️ Контакты'),
             KeyboardButton(text='🖥 Сайт'),
-            KeyboardButton(text='📱 Соцсети')
+            KeyboardButton(text='📱 Соцсети'),
+            KeyboardButton(text='🔬 Отзывы'),
         ],
         [
             KeyboardButton(text='🏬 Местоположение'),
-            KeyboardButton(text='🔬 Отзывы'),
+            KeyboardButton(text='💭 Мессенджеры'),
             KeyboardButton(text='🕘 Режим работы')
         ],
         [

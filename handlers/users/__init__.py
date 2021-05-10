@@ -7,6 +7,7 @@ from . import answer_serial_num
 from . import finish_search
 from . import course
 from . import help
+from . import messenger
 from . import promo_codes
 from . import information
 from . import about_us
