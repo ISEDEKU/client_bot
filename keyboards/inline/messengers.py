@@ -2,7 +2,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 messenger_button = InlineKeyboardMarkup(row_width=3)
 
-BUTTON_1 = 'http://t.me/Aparatua_bot'
+BUTTON_1 = 'http://t.me/aparatjivosite_bot'
 button_1 = InlineKeyboardButton(text='Telegram', url=BUTTON_1)
 messenger_button.insert(button_1)
 

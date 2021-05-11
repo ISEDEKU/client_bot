@@ -105,11 +105,11 @@ async def answer_search_name(message: types.Message, state=FSMContext):
                 quantity = 'Уточните у менеджера'
             else:
                 quantity = 'Есть в наличии'
-            # алгоритм который берёт ячейку из списка, и выдаёт всю нужную информацию в строке с этой ячейкой
+            # # алгоритм который берёт ячейку из списка, и выдаёт всю нужную информацию в строке с этой ячейкой
             await message.answer(
-                '\n{}\nКол-во: {}\nРРЦ $ грн: {}'.format(product_name,
-                                                         quantity,
-                                                         cost_grn.lstrip()))
+                f'\n{product_name}\nНаличие товара:  {quantity}\nЦена на сайте:  {cost_grn} грн.'
+            )
+
             await message.answer('Поиск завершён!', reply_markup=menu_1)
             await state.finish()
 
@@ -125,8 +125,5 @@ async def answer_search_name(message: types.Message, state=FSMContext):
                 quantity = 'Есть в наличии'
             # алгоритм который берёт ячейку из списка, и выдаёт всю нужную информацию в строке с этой ячейкой
             await message.answer(
-                '\n{}\nКол-во: {}\nРРЦ $ грн: {}'.format(product_name,
-                                                         quantity,
-                                                         cost_grn.lstrip()))
-            await message.answer('Поиск завершён!', reply_markup=menu_1)
-            await state.finish()
+                f'\n{product_name}\nНаличие товара:  {quantity}\nЦена на сайте:  {cost_grn} грн.'
+            )
