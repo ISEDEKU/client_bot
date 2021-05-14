@@ -6,4 +6,4 @@ from loader import dp
 
 @dp.message_handler(text='🖥 Сайт')
 async def website(message: types.Message):
-    await message.answer('Ссылки на нашем сайте', reply_markup=website_url)
+    await message.answer('Ссылки на нашем сайте:', reply_markup=website_url)

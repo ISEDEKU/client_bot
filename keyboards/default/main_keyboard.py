@@ -4,7 +4,10 @@ menu_1 = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text='🔍 Поиск'),
-            KeyboardButton(text='💬 Онлайн чат'),
+        ],
+        [
+            KeyboardButton(text='✅ Подписаться'),
+            KeyboardButton(text='💬 Онлайн-чат'),
             KeyboardButton(text='🧾 Категории')
 
         ],
